@@ -1,28 +1,27 @@
 package org.example;
 
 public class Dev {
-    public int getAge() {
-        return age;
+    private Laptop laptop;
+    public Laptop getLaptop() {
+        return laptop;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setLaptop(Laptop laptop) {
+        this.laptop = laptop;
     }
 
-    private int age;
+
+
+
     public Dev()
     {
         System.out.println("dev created");
-    }
-    public Dev(int age)
-    {
-        this.age=age;
-        System.out.println(age);
     }
 
     public void build()
     {
 
         System.out.println( "dev working" );
+        laptop.compile();
     }
 }

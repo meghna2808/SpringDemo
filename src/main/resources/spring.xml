@@ -7,10 +7,9 @@
     <bean id="dev" class="org.example.Dev">
         <!-- injection using setter -->
 <!--    <property name="age" value="122"/>-->
-<!--        <property name="laptop" ref="lap1"/> &lt;!&ndash; this is for setters injection  &ndash;&gt;-->
-        <constructor-arg value="12"/>  <!--this is for constructors injection -->
+        <property name="laptop" ref="lap1"/> <!-- this is for setters injection  -->
     </bean>
-    <bean id="laptop" class="org.example.Laptop"/>
+    <bean id="lap1" class="org.example.Laptop"/>
 
 
 </beans>

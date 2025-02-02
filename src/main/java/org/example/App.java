@@ -11,6 +11,6 @@ public class App
         //creating IoC container
         ApplicationContext context= new ClassPathXmlApplicationContext("spring.xml");
         Dev dev=context.getBean(Dev.class);
-
+        dev.build();
     }
 }
