@@ -5,9 +5,10 @@
 
     <!-- bean definitions here -->
     <bean id="dev" class="org.example.Dev">
-<!--    <property name="age" value="122"/>-->
+        <!-- injection using setter -->
+    <property name="age" value="122"/>
 <!--        <property name="laptop" ref="lap1"/> &lt;!&ndash; this is for setters injection  &ndash;&gt;-->
-        <constructor-arg value="12"/>  <!--this is for constructors injection -->
+<!--        <constructor-arg value="12"/>  &lt;!&ndash;this is for constructors injection &ndash;&gt;-->
     </bean>
     <bean id="laptop" class="org.example.Laptop"/>
 
