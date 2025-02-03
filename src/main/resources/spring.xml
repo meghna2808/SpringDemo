@@ -6,7 +6,7 @@
     <!-- bean definitions here -->
     <bean id="dev" class="org.example.Dev" autowire="byType">
     </bean>
-<!--    <bean id="comp" class="org.example.Laptop"/>-->
+    <bean id="lap1" class="org.example.Laptop" primary="true"/>
     <bean id="desktop1" class="org.example.Desktop"/>
 
 
